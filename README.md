@@ -17,7 +17,7 @@ Robotics Engineering (B.Eng., CQU) · Control Science and Engineering (M.Eng., N
 > 面向人形机器人的世界模型：从 Genesis 仿真越障数据采集，到实机 IMU 运动估计。
 > **零训练、纯内推演**——不依赖强化学习试错，而是把越障动作解算成可解析复现的轨迹，并对每一步做物理复核。
 
-[仓库地址](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model) · [数据集与采集管线](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model#采集管线) · [已知限制](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model#已知限制)
+**[仓库地址](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model)** · [采集管线](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model#采集管线) · [已知限制](https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model#已知限制)
 
 ### 实机：IMU 前进 / 后退
 
@@ -25,22 +25,20 @@ Robotics Engineering (B.Eng., CQU) · Control Science and Engineering (M.Eng., N
   <table>
     <tr>
       <td align="center" width="50%">
-        <video width="380" controls preload="metadata"
-          poster="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/real_imu_forward.jpg">
-          <source src="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/raw/main/assets/videos/real_imu_forward.mp4" type="video/mp4">
-        </video>
+        <a href="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/blob/main/assets/videos/real_imu_forward.mp4">
+          <img src="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/real_imu_forward.jpg" width="380" alt="实机 IMU 前进"/>
+        </a>
         <br/>
         <b>IMU 前进</b><br/>
-        <sub>960×540 · 20.6 s · 30 fps</sub>
+        <sub>960×540 · 20.6 s · 30 fps · 点击封面播放</sub>
       </td>
       <td align="center" width="50%">
-        <video width="380" controls preload="metadata"
-          poster="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/real_imu_backward.jpg">
-          <source src="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/raw/main/assets/videos/real_imu_backward.mp4" type="video/mp4">
-        </video>
+        <a href="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/blob/main/assets/videos/real_imu_backward.mp4">
+          <img src="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/real_imu_backward.jpg" width="380" alt="实机 IMU 后退"/>
+        </a>
         <br/>
         <b>IMU 后退</b><br/>
-        <sub>960×540 · 15.3 s · 29 fps</sub>
+        <sub>960×540 · 15.3 s · 29 fps · 点击封面播放</sub>
       </td>
     </tr>
   </table>
@@ -52,19 +50,17 @@ Robotics Engineering (B.Eng., CQU) · Control Science and Engineering (M.Eng., N
   <table>
     <tr>
       <td align="center" width="50%">
-        <video width="380" controls preload="metadata"
-          poster="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/sim_comparison.jpg">
-          <source src="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/raw/main/assets/videos/sim_comparison.mp4" type="video/mp4">
-        </video>
+        <a href="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/blob/main/assets/videos/sim_comparison.mp4">
+          <img src="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/sim_comparison.jpg" width="380" alt="基座辅助 vs 仅腿关节驱动"/>
+        </a>
         <br/>
         <b>基座辅助 vs 仅腿关节驱动</b><br/>
         <sub>分屏对比（失败，诚实呈现）</sub>
       </td>
       <td align="center" width="50%">
-        <video width="380" controls preload="metadata"
-          poster="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/sim_stepover_8cm.jpg">
-          <source src="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/raw/main/assets/videos/sim_stepover_8cm.mp4" type="video/mp4">
-        </video>
+        <a href="https://github.com/jingquanhong/bruce-H-JEPA-in-World-Model/blob/main/assets/videos/sim_stepover_8cm.mp4">
+          <img src="https://raw.githubusercontent.com/jingquanhong/bruce-H-JEPA-in-World-Model/main/assets/videos/sim_stepover_8cm.jpg" width="380" alt="8 cm 障碍越障"/>
+        </a>
         <br/>
         <b>8 cm 障碍越障</b><br/>
         <sub>参考轨迹，非自主成功示范</sub>
